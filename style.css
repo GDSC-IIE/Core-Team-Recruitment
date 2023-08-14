@@ -12,6 +12,7 @@ body {
     margin: 0 auto;
     border-radius: 5px;
     padding: 20px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +26,16 @@ body {
 
   .container img {
     margin: 10px;
+  }
+
+  .footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .fa{
+    color: red;
   }
 
   ::-webkit-scrollbar {
